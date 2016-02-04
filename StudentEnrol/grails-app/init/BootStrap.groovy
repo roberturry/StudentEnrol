@@ -19,6 +19,22 @@ class BootStrap {
 				endDate:new Date('19/01/2020')).save()
 
 
+
+	def student1 = new Student(name:'Robert Urry',
+	
+				  studentid:'22024136',
+
+				  dob:new Date('16/11/1992'),
+
+			  	  email:'robert_urry@live.co.uk',
+			
+				  username:'B2024136',
+
+			   	  password:'password',
+
+				  course:'Interactive Media with Animation').save()
+
+
     }
     def destroy = {
     }
