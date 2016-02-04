@@ -35,6 +35,20 @@ class BootStrap {
 				  course:'Interactive Media with Animation').save()
 
 
+
+	def lecturer1 = new Lecturer(name:'Example Name',
+
+				    post:'Example Address',
+
+				    email:'Example Email',
+
+				    department:'Example Department',
+
+				    subject:'Example Subject',
+
+				    research:'Example Research',).save()
+
+
     }
     def destroy = {
     }
