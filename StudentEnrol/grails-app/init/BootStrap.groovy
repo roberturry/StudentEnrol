@@ -49,6 +49,33 @@ class BootStrap {
 				    research:'Example Research',).save()
 
 
+	def leader1 = new Leader(fullName:'Dr Anne Roberts',
+
+				post:'Senior Lecturer',
+
+				subject:'Animation',
+
+				email:'a.d.roberts@theUni.ac.uk',
+
+				office:'Room 1234',
+
+				bio:'"Lorem ipsum dolor sit amet, an ullum epicurei definitionem"').save()
+
+
+
+	def module1 = new Module(title:'Web Architectures',
+
+				code:'WA234',
+
+				credits:'5',
+
+				lecturer:'Dr Steve Crossbar',
+
+				description:'"Lorem ipsum dolor sit amet, ludus contentiones ut nam, quaeque dolores facilisi in nec"').save()
+
+	
+
+
     }
     def destroy = {
     }
